@@ -1,4 +1,4 @@
-
+mkdir ~/uncompressed
 cd ~/Downloads
 for i in $(ls| grep .tar)
 
