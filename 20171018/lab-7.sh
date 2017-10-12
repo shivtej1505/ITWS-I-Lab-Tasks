@@ -81,7 +81,7 @@ c(){
 	n=`cat list.txt | wc -l`
 	if [ $1 -le $n ]
 	then	
-		str=`head -n $1 < list.txt | tail -n 1`
+	str=`head -n $1 < list.txt | tail -n 1`
 		str1=`echo $str | cut -d ' ' -f2`
         	str2=`echo $str | cut -d ' ' -f1`
 		echo "$str1 $str2"
