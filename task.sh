@@ -2,9 +2,11 @@
 cd Downloads
 while [ 1 ]
 do
-for a in *.tar
+for file in *.tar
 do
-tar -xzvf $a -C ~/uncompressed
+tar zxvf "$file" -C ~/uncompressed
 done
 break
 done
+
+
