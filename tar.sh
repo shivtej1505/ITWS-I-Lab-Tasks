@@ -8,4 +8,3 @@ tar -xzvf $a -C ~/uncompressed
 done
 break
 done
-
