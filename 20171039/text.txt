@@ -1,0 +1,4 @@
+sai 0
+dinesh 3
+fire 2
+water 5
