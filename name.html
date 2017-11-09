@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab Task</title>
+    
+  </head>
+  <body>
+    <h1>Anurag Jain Roll No. 20171021</h1>
+    <button type="button" onclick="counterPlus()"> + </button>
+    <button type="button" onclick="counterMinus()"> - </button>
+    <button type="button" onclick="counterReset()"> Reset </button>
+    <p id="count">0</p>
+    <script>
+      var x = 0;
+      
+      function counterPlus(){
+      x += 1;
+      document.getElementById("count").innerHTML = x;
+      }
+      function counterMinus(){
+      x -= 1;
+      document.getElementById("count").innerHTML = x;
+      }
+      function counterReset(){
+      x = 0;
+      document.getElementById("count").innerHTML = x;
+      }
+    </script>
+  </body>
+</html>
